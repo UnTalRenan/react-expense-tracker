@@ -156,7 +156,7 @@ const ModalGasto = ({setModal, animarModal, setAnimarModal, guardarGasto, gastoE
                 <DatePicker name="fecha" className='campofecha' dateFormat="dd/MMMM/yyyy" selected={ fechaCalendar }  onChange= {(e) => handleChange(e,'fecha')} />
             </div>
             <div className='campo'>
-                <label htmlFor="categoria">Categorie</label>
+                <label htmlFor="categoria">Category</label>
                 {
                     (tipoModal==="Expense")?(
                         <select name="categoria"
