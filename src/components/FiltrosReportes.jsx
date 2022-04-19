@@ -25,11 +25,12 @@ const FiltrosReportes = ({handleCambioFecha}) => {
                         <DatePicker name="fecha" className='campofecha' dateFormat="dd/MMMM/yyyy" selected={ fechaCalendar1 }  onChange= {(e) => setFechaCalendar1(e)} />
                 </div>
                 <div className='campo'>
-                        <label htmlFor="fecha">End Date</label>
-                        <DatePicker name="fecha" className='campofecha' dateFormat="dd/MMMM/yyyy" selected={ fechaCalendar2 }  onChange= {(e) => setFechaCalendar2(e)} />
+                        <label htmlFor="fecha2">End Date</label>
+                        <DatePicker name="fecha2" className='campofecha' dateFormat="dd/MMMM/yyyy" selected={ fechaCalendar2 }  onChange= {(e) => setFechaCalendar2(e)} />
                 </div>
                 
-            </div>        
+            </div> 
+                 
        </form>  
       </>
     

@@ -221,13 +221,14 @@ header h1 {
         flex-direction: row;
         align-items: center;
         gap: 4rem;
+        
     }
     .dos-columnas > div {
         width: 50%;
     }
-    .dos-columnas :first-child {
+    /*.dos-columnas :first-child {
         margin-bottom: 0;
-    }
+    }*/
     .container-progres {
         width: 100%;
         margin: 0 auto;
@@ -634,7 +635,7 @@ body .modal {
     font-weight: 900;
     text-transform: uppercase;
     font-size: 1.9rem;
-    width: 50%;
+    width: 100px;
     transition: background-color 300ms ease;
 }
 
