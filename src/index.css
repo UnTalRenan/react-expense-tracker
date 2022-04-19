@@ -211,7 +211,7 @@ header h1 {
     margin-bottom: 1rem;
 }
 .container-progres {
-  width: 57%;
+  width: 58%;
 }
 .container-laterales {
   width: 20%;
@@ -228,6 +228,12 @@ header h1 {
     .dos-columnas :first-child {
         margin-bottom: 0;
     }
+    .container-progres {
+        width: 100%;
+        margin: 0 auto;
+      }
+      
+
 
   
     
@@ -252,6 +258,7 @@ header h1 {
       }
 
 }
+
 .formulario input[type="text"].nuevo-presupuesto, 
 .formulario input[type="number"].nuevo-presupuesto {
     font-size: 2.8rem;
@@ -268,11 +275,17 @@ header h1 {
     
 }
 .conainer-totales{
-  font-weight: 400;
+    
+  font-weight: 350;
   color: var(--gris-oscuro);
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   text-align: center;
-  /*border: 1px solid black;*/
+  
+}
+@media (max-width: 768px) {
+    .conainer-totales{
+        min-width: 250px;
+      }
 }
 .contenido-presupuesto p {
     font-weight: 400;
@@ -282,9 +295,13 @@ header h1 {
     /*border: 1px solid black;*/
 }
 @media (min-width: 768px) {
+
     .contenido-presupuesto p {
         text-align: center;
     }
+
+    
+    
 }
 .contenido-presupuesto p.negativo,
 .contenido-presupuesto p.negativo span {
@@ -445,6 +462,8 @@ main {
     top: 3rem;
     width: 3rem;
     height: 3rem;
+    z-index: 3;
+    
 }
 .modal .cerrar-modal img {
     width: 100%;
@@ -462,6 +481,43 @@ main {
     margin-top: 3rem;
     
     
+}
+@media (max-width:500px) {
+    .modal .formulario {
+        max-width: 80rem;
+        width: 35rem;
+        height: 100%;
+        margin-top: 1px;
+        
+    }
+    .formulario legend {
+        font-size: 2.6rem;
+        text-align: center;
+        display: block;
+        text-transform: uppercase;
+        color: var(--blanco);
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--azul);
+    }
+    .formulario .campo {
+        display: grid;
+        margin-bottom: 1rem;
+    }
+
+
+}
+@media (max-width:500px) {
+    .contenedor-presupuesto {
+        margin-top: -1rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        margin: 0 auto;
+    }
+  
+
 }
 .modal label {
     color: var(--blanco);
@@ -584,6 +640,38 @@ body .modal {
 
 .login-home button:hover {
     background-color: #042a67;
+    cursor: pointer;
+}
+
+ .login-home {
+
+    text-align: center;
+    font-size: 3rem;
+  
+  }
+  .logout-home {
+
+    text-align: center;
+    font-size: 3rem;
+  
+  }
+
+.logout-home button {
+    background-color: #f73022;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--blanco);
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    width: 50%;
+    transition: background-color 300ms ease;
+}
+
+.logout-home button:hover {
+    background-color: #e41c1c;
     cursor: pointer;
 }
 

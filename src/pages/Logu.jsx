@@ -6,7 +6,7 @@ const Logu = () => {
     <div>
         <header/>
         <main>
-            <div className='contenedor sombra login-home'>
+            <div className='contenedor sombra logout-home'>
                 <h1>Are you sure you want to logout?</h1>
                     <LogoutButton />
             </div>              

@@ -135,6 +135,7 @@ const ModalGasto = ({setModal, animarModal, setAnimarModal, guardarGasto, gastoE
                 <input
                 name="nombre"
                 type="text"
+                maxLength="20"
                 placeholder={`Type the name of ${tipoModal}`}
                 value={gasto.nombre}
                 onChange= {(e) => handleChange(e,'text')}
@@ -145,6 +146,7 @@ const ModalGasto = ({setModal, animarModal, setAnimarModal, guardarGasto, gastoE
                 <input
                 name="valor"
                 type="number"
+                maxLength="7"
                 value={gasto.valor}
                 onChange= {(e) => handleChange(e,'number')}
                 />

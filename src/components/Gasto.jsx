@@ -79,7 +79,7 @@ const Gasto = ({gasto, setGastoEditar, eliminarGasto}) => {
                     </div>
                 </div>
                 <p className={`cantidad-gasto valor-${tipo}`}>
-                    {formatearCantidad(valor)}
+                    {formatearCantidad(Number(valor))}
                     </p>
             </div>
 

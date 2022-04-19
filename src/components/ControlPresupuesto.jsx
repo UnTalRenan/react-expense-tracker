@@ -19,16 +19,17 @@ const ControlPresupuesto = ({gastos, handleNuevoGasto}) => {
       gastos.forEach(function(item, index) {
           if(item.tipo==="Expense")
           {
-            totalGastado=totalGastado+item.valor;
+            totalGastado=(totalGastado+Number(item.valor));
           }else{
-            totalIngresos=totalIngresos+item.valor;
+            totalIngresos=(totalIngresos+Number(item.valor));
           }
           
       });
       const totalBalance = totalIngresos - totalGastado;
 
-      let nuevoPorcentaje=100;
-      if(totalIngresos>0)
+      let nuevoPorcentaje=0;
+      totalGastado>0?nuevoPorcentaje=100:0;
+      if(totalIngresos>0 && totalGastado>0 )
         nuevoPorcentaje= (( (totalIngresos-totalBalance)/totalIngresos )*100).toFixed(2);
 
       setGastado(totalGastado)
