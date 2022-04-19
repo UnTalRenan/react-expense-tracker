@@ -1,4 +1,4 @@
-# React-expense-tracker
+# React-Expense-Tracker DEMO
 
 <p align="center">
   <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" width="200" alt="Logo" />
