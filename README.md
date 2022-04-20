@@ -25,7 +25,7 @@ Para usar la aplicación es obligatorio iniciar session con un correo electronic
 ![CapturaEstr](https://user-images.githubusercontent.com/56938350/164094337-2ce282ef-5a6e-42e1-9cf8-f284a1a9dd38.PNG)
 
 
-## Caprutras
+## Capturas
  HomePage
 ![image](https://user-images.githubusercontent.com/56938350/164104800-53c77a29-d8c5-4d51-b022-a539c332b85a.png)
 
