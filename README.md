@@ -36,6 +36,14 @@ Reporte
 ![image](https://user-images.githubusercontent.com/56938350/164105382-e175b10e-0b0b-4b41-a197-fcd23ef1f19e.png)
 
 
+## Acceso de Testing :
+correo: usertesting@auth0.com
+clave: Testing2022
+
+![image](https://user-images.githubusercontent.com/56938350/164271456-70cdb506-09a6-40c4-835f-ba7e5c7e1bda.png)
+
+
+
 ## En Producción:
 
 https://fabulous-figolla-11b203.netlify.app/
