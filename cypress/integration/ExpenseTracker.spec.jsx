@@ -28,7 +28,7 @@ describe('<ExpenseTracker/>',()=>{
         cy.get('[name=action]')
         .should('exist');
 
-        cy.get('[id=username]').type('cardona_hs@hotmail.com')
+        cy.get('[id=username]').type('usertesting@auth0.com')
         cy.get('[id=password]').type('Testing2022')
         cy.get('[name=action]').click();
         
