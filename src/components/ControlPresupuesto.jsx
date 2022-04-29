@@ -54,10 +54,11 @@ const ControlPresupuesto = ({gastos, handleNuevoGasto}) => {
       <div className='contenedor-presupuesto contenedor sombra dos-columnas'>
 
           <div className='contenido-presupuesto container-laterales'>
-              <div className='conainer-totales'>
+              <div data-cy="ingresos" className='conainer-totales'>
                   <span>Incomes:</span> {formatearCantidad(ingresado)}
                   <div className='nuevo-ingreso'>
                     <img 
+                      data-cy="add-income"
                       src={IconoNuevoIngreso} 
                       alt="Icono nuevo ingreso"
                       onClick={(e)=>handleOpen(e,'Income')}
@@ -68,7 +69,7 @@ const ControlPresupuesto = ({gastos, handleNuevoGasto}) => {
               
           </div>
           <div className='container-progres'>
-            <div>
+            <div data-cy="central">
               <CircularProgressbar
               styles={buildStyles({
                 pathColor : '#3B82F6',
@@ -84,10 +85,11 @@ const ControlPresupuesto = ({gastos, handleNuevoGasto}) => {
               </div>
           </div>
           <div className='contenido-presupuesto container-laterales'>
-              <div className='conainer-totales'>
+              <div data-cy="gastado" className='conainer-totales'>
                   <span>Expense:</span> {formatearCantidad(gastado)}
                   <div className='nuevo-gasto'>
                       <img 
+                        data-cy="add-expense"
                         src={IconoNuevoGasto} 
                         alt="Icono nuevo gasto"
                         onClick={(e)=>handleOpen(e,'Expense')}

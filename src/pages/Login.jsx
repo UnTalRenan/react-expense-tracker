@@ -7,8 +7,8 @@ const Login = () => {
          <header/>
           <main>
             <div className='contenedor sombra login-home'>
-                <h1>Registration or Authentication is required</h1>
-                  <LoginButton/>
+                <h1 data-cy="titulo">Registration or Authentication is required</h1>
+                  <LoginButton />
             </div>              
             </main> 
     </div>

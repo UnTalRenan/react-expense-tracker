@@ -66,10 +66,10 @@ const Gasto = ({gasto, setGastoEditar, eliminarGasto}) => {
                         alt="Icono categoria" 
                     />
                     <div className='descripcion-gasto'>
-                        <p className='categoria'>
+                        <p className='categoria' data-cy={`lst-category-${categoria}`}>
                             {categoria}
                         </p>
-                        <p className='nombre-gasto'>
+                        <p className='nombre-gasto' data-cy={`lst-name-${categoria}`} >
                             {nombre}
                         </p>
                         <p className='fecha-gasto'> 

@@ -133,6 +133,7 @@ const ModalGasto = ({setModal, animarModal, setAnimarModal, guardarGasto, gastoE
             <div className='campo'>
                 <label htmlFor="nombre">Name {tipoModal}</label>
                 <input
+                data-cy="name"
                 name="nombre"
                 type="text"
                 maxLength="20"
@@ -144,6 +145,7 @@ const ModalGasto = ({setModal, animarModal, setAnimarModal, guardarGasto, gastoE
             <div className='campo'>
                 <label htmlFor="valor">Amount</label>
                 <input
+                data-cy="value"
                 name="valor"
                 type="number"
                 maxLength="7"
@@ -159,7 +161,9 @@ const ModalGasto = ({setModal, animarModal, setAnimarModal, guardarGasto, gastoE
                 <label htmlFor="categoria">Category</label>
                 {
                     (tipoModal==="Expense")?(
-                        <select name="categoria"
+                        <select 
+                           data-cy="category"
+                            name="categoria"
                             value={gasto.categoria} 
                             onChange= {(e) => handleChange(e)}>
                             <option value="">-- Select --</option>
@@ -171,7 +175,9 @@ const ModalGasto = ({setModal, animarModal, setAnimarModal, guardarGasto, gastoE
                 
                         </select>
                     ):(
-                        <select name="categoria"
+                        <select 
+                            data-cy="category"
+                            name="categoria"
                             value={gasto.categoria} 
                             onChange= {(e) => handleChange(e)}>
                             <option value="">-- Select --</option>
@@ -191,6 +197,7 @@ const ModalGasto = ({setModal, animarModal, setAnimarModal, guardarGasto, gastoE
             </div>
 
             <input 
+                data-cy="btn-submit"
                 type="submit" 
                 value={gastoEditar.nombre?"Save Changes":`Add ${tipoModal}`}
                 />
