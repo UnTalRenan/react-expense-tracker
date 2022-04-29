@@ -25,7 +25,7 @@ Para usar la aplicación es obligatorio iniciar session con un correo electronic
 ![CapturaEstr](https://user-images.githubusercontent.com/56938350/164094337-2ce282ef-5a6e-42e1-9cf8-f284a1a9dd38.PNG)
 
 
-## Caprutras
+## Capturas
  HomePage
 ![image](https://user-images.githubusercontent.com/56938350/164104800-53c77a29-d8c5-4d51-b022-a539c332b85a.png)
 
@@ -34,6 +34,14 @@ Editar/Eliminar con deslizamiento
 
 Reporte
 ![image](https://user-images.githubusercontent.com/56938350/164105382-e175b10e-0b0b-4b41-a197-fcd23ef1f19e.png)
+
+
+## Acceso de Testing :
+correo: usertesting@auth0.com
+clave: Testing2022
+
+![image](https://user-images.githubusercontent.com/56938350/164271456-70cdb506-09a6-40c4-835f-ba7e5c7e1bda.png)
+
 
 
 ## En Producción:
