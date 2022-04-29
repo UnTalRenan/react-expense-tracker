@@ -14,6 +14,13 @@ npm run dev
 
 ```
 
+## Cypress Testing
+
+```bash
+npx cypress open
+
+```
+
 Abrir [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
 ## Autenticación con API de Auth0
@@ -42,6 +49,9 @@ clave: Testing2022
 
 ![image](https://user-images.githubusercontent.com/56938350/164271456-70cdb506-09a6-40c4-835f-ba7e5c7e1bda.png)
 
+
+## Test
+![image](https://user-images.githubusercontent.com/56938350/166071356-a4b5078d-85a8-4d4c-9a4f-40e6bb3c2a4c.png)
 
 
 ## En Producción:
